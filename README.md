@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repo Link](https://your-solution-url.com)
-- Live Site URL: [Link to live site](https://your-live-site-url.com)
+- Solution URL: [GitHub Repo Link](https://github.com/GentryHQ/advice-generator)
+- Live Site URL: [Link to live site](https://gentryhq.github.io/advice-generator/)
 
 ## My process
 
