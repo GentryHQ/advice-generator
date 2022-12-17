@@ -1,0 +1,43 @@
+@use "./variables" as v;
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: v.$fontFamily;
+}
+
+body {
+  background-color: v.$darkBlue;
+  font-weight: v.$fontWeight;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+button {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+// customization for the attribution in the footer
+.attribution {
+  margin-block: 3.125rem;
+  font-size: 11px;
+  text-align: center;
+  color: v.$lightCyan;
+}
+
+.attribution a {
+  color: v.$neonGreen;
+}
+// customization for the attribution in the footer

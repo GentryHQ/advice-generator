@@ -1,0 +1,42 @@
+@use './variables' as v;
+
+.container {
+    max-width: 600px;
+    margin-inline: 20px;
+}
+
+.advice {
+    // max-width: 310px;
+    background-color: v.$darkGrayishBlue;
+    padding-block: 30px;
+    padding-inline: 10px;
+    border-radius: .625rem;
+    text-align: center;
+    position: relative;
+    margin-inline: auto;
+
+    h1 {
+        font-size: 1rem;
+        color: v.$neonGreen;
+        text-transform: uppercase;
+        letter-spacing: .3125rem;
+        margin-block-end: 30px;
+    }
+
+    p {
+        font-size: 1.75rem;
+        color: v.$lightCyan;
+    }
+
+    button {
+        background-color: v.$neonGreen;
+        padding: .9375rem;
+        border-radius: 4.375rem;
+        position: absolute;
+        transform: translateX(-50%);
+
+        &:hover {
+            box-shadow: 0 0 20px 1px v.$neonGreen;
+        }
+    }
+}
